@@ -1,0 +1,48 @@
+# Архивы и тяжелые файлы
+*.rar
+*.zip
+*.tar
+*.gz
+*.7z
+
+# Python & Backend (FastAPI, SQLite, JWT)
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+*.sqlite3
+*.db
+private_storage/
+private_temp_chunks/
+cloud-backend/private_storage/
+cloud-backend/private_storage.rar
+.env
+
+# React / Node.js (Frontend)
+node_modules/
+cloud-ui/node_modules/
+cloud-ui/dist/
+cloud-ui/dist-isolated/
+cloud-ui/.venv/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Nginx & Executables
+nginx/*.exe
+nginx/logs/*
+!nginx/logs/.gitkeep
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS System files
+.DS_Store
+Thumbs.db
